@@ -1,0 +1,83 @@
+
+
+.navbar{
+  display: flex;
+  position: relative;
+}
+
+
+.navbar li{
+  width: 200px;
+  list-style: none;
+  background: rgb(67, 238, 41);
+  position: relative;
+  border-radius: 5px;
+}
+
+.navbar li a{
+  color: rgb(30, 30, 157);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  height: 35px;
+  line-height: 35px;
+  transition: all .5s;
+}
+
+.navbar a:hover{
+  background: burlywood;
+}
+
+.navbar ul{
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  
+  padding: 0;
+  width: 900px;
+  justify-content: space-between;
+}
+.navbar li:hover>ul{
+  display: block;
+  display: none;
+}
+
+.navbar ul ul{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.navbar-col-3{
+  width: calc((100% / 12)*3);
+}
+
+.navbar-col-9{
+  width: calc((100% / 12)*9);
+  padding-left: 50%;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.py-3{
+  padding: 3px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.justufy-content-end{
+  justify-content: flex-end;
+}
+.navbar-li button{
+  width: 35px;
+  height: 25px;
+  color: green;
+  background: green;
+}

@@ -1,0 +1,35 @@
+
+body{
+    padding: 0;margin: 0;border: 0;
+}
+
+
+
+
+
+
+.block{
+    border: 5px solid blueviolet;
+    max-width: 500px;
+    margin: 0px auto;
+    height: 500px;
+}
+.block1{
+    background: violet;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.block2{
+    background: rgb(50, 13, 100);
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: static;
+}
+.block3{
+    background: rgb(120, 20, 36);
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
