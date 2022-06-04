@@ -66,7 +66,7 @@ p{
 }
 
 .navbar ul li{
-    width: 110px;
+    width: 90px;
     height: 35px;
     
 }
@@ -85,11 +85,12 @@ p{
 /* DropdownMenuStart */
 
 .sub-menu{
-    background: white;
+    background: rgb(234, 199, 199);
 }
 
 .navbar-nav ul li:hover{
     background: rgb(209, 197, 197);
+    
 }
 .sub-menu {
     display: inline-block;
@@ -109,7 +110,7 @@ p{
 }
 
 .navbar-nav ul li:hover .sub-menu{
-    background: rgb(169, 215, 240);
+    background: white;
     display: block;
     position: absolute;
     margin-top: 15px;
@@ -129,7 +130,7 @@ p{
     display: none;
     margin-top: -26px;
     margin-left: 130px;
-    background-color: aqua;
+    background-color: white;
     transition: 0.3s;
 }
 
@@ -156,13 +157,17 @@ p{
     height: 35vh;
     padding-top: 20%;
     align-items: flex-start;
-   
+    
 }
 
 .slider-content ul li a {
     color: white;
     font-size: 18px;
     height: 25px;
+}
+.slider-content ul{
+    margin-top: 85px;
+    display: flex;
 }
 
 
@@ -172,8 +177,9 @@ p{
     justify-content: space-between;
     align-items: center;
     margin-left: 27px;
-
+    
 }
+
 
 
 .slider-content h1{
