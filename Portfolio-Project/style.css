@@ -3,7 +3,7 @@
 
 p{
     margin: 0px;
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 600;
     
 }
@@ -56,7 +56,7 @@ p{
 .navbar{
    width: 100%;
    background: white;
-   /* position: fixed; */
+   position: fixed;
    
 }
 
@@ -135,8 +135,8 @@ p{
     transition: 0.3s;
 }
 
-
 /* DropdownMenuEnd */
+
 
 /* Slider section start */
 
@@ -180,8 +180,6 @@ p{
     
 }
 
-
-
 .slider-content h1{
     font-size: 40px;
     font-weight: 700;
@@ -189,7 +187,7 @@ p{
     text-transform: uppercase;
     color: #fff;
     line-height: 1.2;
-           
+          
 }
 
 .slider-content h6{
@@ -236,20 +234,20 @@ p{
     }
 
     #about .div-img-bg .about-img img {
-        width: 100%;
-        box-shadow: 0px 0px 85px 0px rgb(0 0 0 / 14%);
-        margin-top: -60px;
-        margin-left: 40px;
-        height: 400px;
-        -o-object-fit: cover;
-        object-fit: cover;}
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgb(0 0 0 / 14%);
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 400px;
+    /* -o-object-fit: cover; */
+    object-fit: cover;
+}
 
 /* shortinfo section end */
 
 /* services section start */
 #services{
     width: 100%;
-    /* border: 1px solid rgb(202, 35, 35); */
     padding: 50px;
     background: #f7f7f7;
     height: 10%;
@@ -284,12 +282,12 @@ p{
 }
 /* services section end */
 
+
 /* section portfolio start */
 
 #portfolio{
     box-sizing: border-box;
     background: #fbf0f0;
-    /* border: 1px solid red; */
     height: 250px;
     height: 850px;
 }
@@ -346,7 +344,111 @@ p{
     padding-top: 35px;
 }
 
-
 /* section portfolio end */
+
+/* journal section start */
+
+#journal{
+    height: auto;
+    width: 100%;
+    background: #f7f7f7;
+    padding-bottom: 60px;
+    height: 630px;
+}
+
+.journal-heading{
+    max-width: 1300px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 90px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.journal-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    height: 350px;
+}
+
+.journal-container-items img{
+  
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+
+.journal-container-items{
+   height: 350px; 
+}
+.journal-container-items h5{
+    height: 50px; 
+    color: #292929;
+    font-size: 14px;
+    padding-top: 25px;
+    
+ }
+.journal-container a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-container a:hover{
+   background: #e4d2b9;
+   color: white;
+   
+}
+#journal p{
+    margin: 0;
+    font-size: 14px;
+    height: 35px;
+    
+}
+/* journal section end */
+
+
+/* contact section start */
+
+#contact{
+    height: auto;
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.contact-row{
+    display: inline-flex;
+    /* text-align: center; */
+    padding-top: 35px;
+    width: 650px;
+}
+.contact-container{
+    height: 350px;
+    width: 100%;
+}
+
+.contact-contact h2{
+    height: 50px; 
+    color: #292929;
+    font-size: 30px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.contact-contact{
+    text-align: left;
+}
+.contact-col-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact-row-col-6{
+    display: flex;
+    text-align: right;
+}
+
+/* contact section end */
 
 
