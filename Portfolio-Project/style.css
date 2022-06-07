@@ -56,7 +56,7 @@ p{
 .navbar{
    width: 100%;
    background: white;
-   position: fixed;
+   /* position: fixed; */
    
 }
 
@@ -247,22 +247,27 @@ p{
 /* shortinfo section end */
 
 /* services section start */
-.services{
-    border: 1px solid black;
+#services{
+    width: 100%;
+    border: 1px solid rgb(202, 35, 35);
     padding: 50px;
-        
+    /* height: 250px; */
+    height: 10%;
 }
+
 .services-content{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
     height: 30px;
     justify-content: center;
+  
 }
 .services-content-items{
-    /* border: 1px solid black; */
+ 
     width: 100% ;
     max-height: 180px;
+   
 }
 .services-content p{
     font-size: 15px;
@@ -271,15 +276,76 @@ p{
 .services-content h4{
     font-size: 14px;
 }
-.services-content-items-span img{
+.services-content-items span img{
     width: 100%;
-    height: 20px;
+    height: 25px;
     opacity: 1;
-    margin-top: 80px;      
+    margin-top: 180px;      
+}
+/* services section end */
+
+/* section portfolio start */
+
+#portfolio{
+    box-sizing: border-box;
+    border: 1px solid red;
+    height: 250px;
+    height: 760px;
+}
+
+.portfolio-heading{
+    max-width: 1300px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+       
+}
+
+.portfolio-heading h2{
+    height: 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;    
 }
 
 
+.portfolio-container img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-container-items{
+    
+    height: 35px;
+}
+
+#portfolio-filters li{
+    cursor: pointer;
+    display: inline;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out; 
+    
+}
 
 
+.portfolio-row{
+    display: block;
+    text-align: center;
+    padding-top: 35px;
+}
 
-/* services section end */
+
+/* section portfolio end */
+
+
