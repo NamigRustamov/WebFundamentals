@@ -249,9 +249,9 @@ p{
 /* services section start */
 #services{
     width: 100%;
-    border: 1px solid rgb(202, 35, 35);
+    /* border: 1px solid rgb(202, 35, 35); */
     padding: 50px;
-    /* height: 250px; */
+    background: #f7f7f7;
     height: 10%;
 }
 
@@ -288,9 +288,10 @@ p{
 
 #portfolio{
     box-sizing: border-box;
-    border: 1px solid red;
+    background: #fbf0f0;
+    /* border: 1px solid red; */
     height: 250px;
-    height: 760px;
+    height: 850px;
 }
 
 .portfolio-heading{
@@ -312,15 +313,15 @@ p{
 
 
 .portfolio-container img{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+    
     object-fit: cover;
     max-width: 100%;
     height: auto;
 }
-.portfolio-container-items{
-    
+.portfolio-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     height: 35px;
 }
 
