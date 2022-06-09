@@ -60,26 +60,37 @@ p{
    
 }
 
-.navbar-logo img{
-    width: 90px;
-    height: 50px;
-    margin-top: 10px;
+
+.navbar i{
+    transition: 00.3s;
 }
 
-.navbar ul li{
-    width: 90px;
-    height: 35px;
+.navbar-logo img{
+    width: 61px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.navbar ul {
+   
+    gap: 20px;
+   
     
 }
 .navbar-nav ul li a{
-    padding: 0px 0px;
     font-size: 1.2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 27px;
+    
 }
 
+.navbar li{
+    padding: 13px 0px;
+    position: relative;
+}
+
+/* .navbar i{
+    margin-left: 10px;
+
+} */
 
 /* Navbar section end */
 
@@ -87,6 +98,7 @@ p{
 
 .sub-menu{
     background: rgb(234, 199, 199);
+    
 }
 
 .navbar-nav ul li:hover{
@@ -108,6 +120,7 @@ p{
 .sub-menu2 ul li:hover {
     width: 120px;
     padding: 5px 5px;
+    
 }
 
 .navbar-nav ul li:hover .sub-menu{
@@ -444,6 +457,13 @@ p{
     width: 600px;
 }
 
+.contact-container{
+    width: 1170;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .form-contact{
     display: flex;
@@ -463,7 +483,8 @@ p{
 .form-contact textarea{
     padding: 5px;
     margin: 5px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
 /* contact section end */
 
